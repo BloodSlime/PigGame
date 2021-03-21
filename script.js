@@ -80,4 +80,5 @@ btnNew.addEventListener('click', function () {
     .classList.remove('player--winner');
   document.querySelector(`.player--0`).classList.add('player--active');
   activePlayer = 0;
+  document.querySelector(`.player--1`).classList.remove('player--active');
 });
